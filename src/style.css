@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+
+.invertido {
+  transform: rotate(180deg);
+}
+
+h1 {
+  font-size: 7.5rem;
+}
+
+p {
+  font-size: 4.5rem;
+}
+
+.diamante {
+  color: red;
+}
+
+.corazon {
+  color: red;
+}
+
+.pica {
+  color: black;
+}
+
+.trébol {
+  color: black;
+}

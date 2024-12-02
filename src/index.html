@@ -13,17 +13,31 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <br /><br /><br />
+
+    <div class="card mx-auto mt-5" style="width: 18rem;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item fs-1 d-flex justify-content-between">
+          <p id="iconos">♥</p>
+
+          <!--coloque un boton disable dentro de la carta para colocar el temporizador, pero no supe terminarlo -->
+          <!-- <button
+            class="btn btn-success rounded-circle disabled"
+            style="width: 50px; height: 50px; font-size: 24px;  "
+          >
+            <span id="time"></span>
+          </button>  -->
+        </li>
+        <li class="list-group-item mx-auto p-3 fonts;">
+          <h1 id="letra">A</h1>
+        </li>
+        <li class="list-group-item fs-1 justify-content-end invertido">
+          <p id="iconofoot">♥</p>
+        </li>
+      </ul>
     </div>
+    <button type="button" class="btn btn-primary mx-auto d-flex mt-4">
+      <h2 id="boton">New card</h2>
+    </button>
   </body>
 </html>
